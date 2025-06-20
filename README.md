@@ -1,4 +1,4 @@
-# Termux-Setup																														apt update && apt upgrade -y
+# Termux-Setup																																																																				apt update && apt upgrade -y
 
 pkg update apt upgrade -y
 
