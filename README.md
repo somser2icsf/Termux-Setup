@@ -1,13 +1,16 @@
-# Termux-Setup																																																																				apt update && apt upgrade -y
+# Termux-Setup
+Termux setup tools 
 
-pkg update apt upgrade -y
+apt update
 
-pkg install python 
+apt upgrade -y
 
-pip install git 
+pkg install python
+
+pkg install git
 
 git clone https://github.com/somser2icsf/Termux-Setup
 
 cd Termux-Setup
 
-python setup.py 
+python setup.py
