@@ -2,7 +2,6 @@ import random
 import time
 import sys
 import os
-os.system("https://g.co/kgs/LNTseih")
 class color:
     RED='\033[91m'
     YELLOW='\033[93m'
@@ -176,8 +175,7 @@ def full():
 | |_| | |_| | |\  | |___ 
 |____/ \___/|_| \_|_____|
                                     
-Team: ICSF | Devoloper - SOMSER
-	
+
 	
 """)
   os.system("espeak -a 500 'Setup Done'")
@@ -197,21 +195,14 @@ logo= (f"""{color.GREEN}
 ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝
 ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░
 ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░
-╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░
-
-██████╗░░█████╗░███╗░░██╗███████╗
-██╔══██╗██╔══██╗████╗░██║██╔════╝
-██║░░██║██║░░██║██╔██╗██║█████╗░░
-██║░░██║██║░░██║██║╚████║██╔══╝░░
-██████╔╝╚█████╔╝██║░╚███║███████╗
-╚═════╝░░╚════╝░╚═╝░░╚══╝╚══════╝ {color.END}
+╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░ {color.END}
 {color.BOLD}{color.BLUE}==============================================={color.END}
-{color.BLUE}[{color.END}{color.BOLD}{color.PURPLE}={color.END}{color.BLUE}]{color.END}  {color.YELLOW}DEVELOPER{color.END}     {color.BOLD}:{color.END}  {color.GREEN} SCWhack {color.END}
-{color.BLUE}[{color.END}{color.BOLD}{color.PURPLE}={color.END}{color.BLUE}]{color.END}  {color.YELLOW}GITHUB{color.END}        {color.BOLD}:{color.END}  {color.GREEN} Sammy750-cyber {color.END}
+{color.BLUE}[{color.END}{color.BOLD}{color.PURPLE}={color.END}{color.BLUE}]{color.END}  {color.YELLOW}DEVELOPER{color.END}     {color.BOLD}:{color.END}  {color.GREEN} SOMSER {color.END}
+{color.BLUE}[{color.END}{color.BOLD}{color.PURPLE}={color.END}{color.BLUE}]{color.END}  {color.YELLOW}GITHUB{color.END}        {color.BOLD}:{color.END}  {color.GREEN} Somser SA {color.END}
 {color.BLUE}[{color.END}{color.BOLD}{color.PURPLE}={color.END}{color.BLUE}]{color.END}  {color.YELLOW}VERSION{color.END}       {color.BOLD}:{color.END}  {color.GREEN} 1.0 {color.END}
-{color.BLUE}[{color.END}{color.BOLD}{color.PURPLE}={color.END}{color.BLUE}]{color.END}  {color.YELLOW}TELEGRAM{color.END}      {color.BOLD}:{color.END}  {color.GREEN} NOGROUPYET {color.END}
-{color.BLUE}[{color.END}{color.BOLD}{color.PURPLE}={color.END}{color.BLUE}]{color.END}  {color.YELLOW}TOOL'S NAME{color.END}   {color.BOLD}:{color.END}  {color.GREEN} TMX SETUP {color.END}
-{color.BLUE}[{color.END}{color.BOLD}{color.PURPLE}={color.END}{color.BLUE}]{color.END}  {color.YELLOW}STATUS{color.END}        {color.BOLD}:{color.END}  {color.GREEN} FREE {color.END}
+{color.BLUE}[{color.END}{color.BOLD}{color.PURPLE}={color.END}{color.BLUE}]{color.END}  {color.YELLOW}TELEGRAM{color.END}      {color.BOLD}:{color.END}  {color.GREEN} t.me/somser_sa {color.END}
+{color.BLUE}[{color.END}{color.BOLD}{color.PURPLE}={color.END}{color.BLUE}]{color.END}  {color.YELLOW}TOOL'S NAME{color.END}   {color.BOLD}:{color.END}  {color.GREEN} ICSF SETUP {color.END}
+{color.BLUE}[{color.END}{color.BOLD}{color.PURPLE}={color.END}{color.BLUE}]{color.END}  {color.YELLOW}Team Fb{color.END}        {color.BOLD}:{color.END}  {color.GREEN} https://www.facebook.com/islamic.cyber7ecurityforce {color.END}
 {color.BOLD}{color.BLUE}==============================================={color.END}
 {color.BLUE}[{color.END}{color.PURPLE}01/A{color.END}{color.BLUE}]{color.END} {color.GREEN} Basic Setup {color.END}
 {color.BLUE}[{color.END}{color.PURPLE}02/B{color.END}{color.BLUE}]{color.END} {color.GREEN} Full Setup {color.END}
@@ -231,10 +222,10 @@ if user_input == "01" or user_input == "a" or user_input == "A" or user_input ==
 elif user_input == "02" or user_input == "b" or user_input == "B" or user_input == "2":
    full()
 elif user_input == "03" or user_input == "c" or user_input == "C" or user_input == "3":
-   os.system("xdg-open https://g.co/kgs/LNTseih")
+   import webbrowser
+webbrowser.open("https://g.co/kgs/LNTseih")
 elif user_input ==  "04" or user_input == "x" or user_input == "X" or user_input == "4":
    sys.exit()
 else:
    print(f"{color.RED}Invalid Input!!! {color.END}")
    sys.exit()
- 
