@@ -209,7 +209,7 @@ def banner_tool():
     bashrc_path = os.path.expanduser("~/.bashrc")
     
     with open(bashrc_path, "a") as bashrc:
-        bashrc.write(f"\nclear\nfiglet Welcome {user} | lolcat\necho '{banner_art}' | lolcat\necho '{user}@termux'\n")
+        bashrc.write(f"\nclear\nfiglet {user} | lolcat\necho '{banner_art}' | lolcat\necho 'welcome~{user}'\n")
     
     print(f"{color.GREEN}✅ Banner successfully added! Restart Termux to see it.{color.END}")
     if command_exists("espeak"): # Check if espeak exists before using
