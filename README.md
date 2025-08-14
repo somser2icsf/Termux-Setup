@@ -1,3 +1,8 @@
+**Developer Somser SA**
+**Owner Islamic Cyber Security Force (ICSF)**  
+
+[📂 Open Google Panel](https://share.google/7e4TKtOO95Rs404qU)
+
 ## ⚙️ Installation
 
 ```bash
